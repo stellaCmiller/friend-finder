@@ -1,0 +1,16 @@
+.container{
+    margin: auto;
+    width: 70%;
+    background-color: #eee;
+    padding: 10px;
+}
+
+.question{
+    margin: 20px 0px 20px 0px;
+    font-size: 16pt;
+}
+
+label{
+    font-size: 16pt;
+}
+

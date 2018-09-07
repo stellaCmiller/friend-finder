@@ -7,8 +7,10 @@ const htmlRoutes = require('./app/routing/htmlRoutes')
 const app = express();
 const port = 8080;
 
+app.use(express.static(__dirname + '/app/public'));
 app.use(apiRoutes)
 app.use(htmlRoutes)
+
 
 app.get("/", function(req, res) {
     res.send("Yeet");
